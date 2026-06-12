@@ -1002,19 +1002,19 @@ By starting with basic health literacy and expanding into critical areas like fi
       <form class="volunteer-form" id="volunteer-form" action="https://formspree.io/f/xykanlal" method="POST">
         <div class="form-field">
           <label for="vol-name">Name</label>
-          <input type="text" id="vol-name" placeholder="Your full name" />
+          <input type="text" id="vol-name" name="name" placeholder="Your full name" />
         </div>
         <div class="form-field">
           <label for="vol-email">Email</label>
-          <input type="email" id="vol-email" placeholder="you@example.com" />
+          <input type="email" id="vol-email" name="email" placeholder="you@example.com" />
         </div>
         <div class="form-field">
           <label for="vol-phone">Contact Number</label>
-          <input type="tel" id="vol-phone" placeholder="+977 ..." />
+          <input type="tel" id="vol-phone" name="phone" placeholder="+977 ..." />
         </div>
         <div class="form-field">
           <label for="vol-why">Why are you interested in volunteering?</label>
-          <textarea id="vol-why" rows="3" placeholder="Tell us a little about yourself..."></textarea>
+          <textarea id="vol-why" name="why" rows="3" placeholder="Tell us a little about yourself..."></textarea>
         </div>
         <button class="btn btn-green" type="button" onclick="handleSubmit('volunteer-form', this)">Submit Application</button>
       </form>
@@ -1312,15 +1312,15 @@ By starting with basic health literacy and expanding into critical areas like fi
       <form class="volunteer-form" id="contact-form" action="https://formspree.io/f/mvznwdeo" method="POST">
         <div class="form-field">
           <label for="con-name">Name</label>
-          <input type="text" id="con-name" placeholder="Your full name" />
+          <input type="text" id="con-name" name="name" placeholder="Your full name" />
         </div>
         <div class="form-field">
           <label for="con-email">Email</label>
-          <input type="email" id="con-email" placeholder="you@example.com" />
+          <input type="email" id="con-email" name="email" placeholder="you@example.com" />
         </div>
         <div class="form-field">
           <label for="con-msg">Message</label>
-          <textarea id="con-msg" rows="4" placeholder="How can we help?"></textarea>
+          <textarea id="con-msg" rows="4" name="message" placeholder="How can we help?"></textarea>
         </div>
         <button class="btn btn-green" type="button" onclick="handleSubmit('contact-form', this)">Send Message</button>
       </form>
